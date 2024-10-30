@@ -20,7 +20,7 @@ body {
     width: 70rem;
     border: 1px solid black;
     border-radius: 10px;
-    z-index: 99999;
+    z-index: 1;
 }
 
 .esquerdo {
@@ -29,6 +29,7 @@ body {
     width: 35%;
     border-right: 1px solid black;
     border-radius: 10px 0 0 10px;
+    z-index: 2;
 }
 
 .titulo {
@@ -37,7 +38,7 @@ body {
 }
 
 .titulo .nem {
-    padding-top: 7rem;
+    padding-top: 1rem;
 }
 
 .titulo .nem2 {
@@ -57,6 +58,7 @@ body {
     width: 250px;
     margin-top: 6rem;
     border-radius: 40px;
+    border: none;
 }
 
 .botaoEsquerda:hover {
@@ -138,7 +140,7 @@ img {
     height: 250px;
     display: flex;
     position: absolute;
-    left: 800px;
+    left: 700px;
     bottom: 600px;
 }
 
@@ -156,10 +158,13 @@ img {
 .circulo4 {
     background: linear-gradient(to bottom, rgb(255, 0, 128), rgb(255, 27, 152));
     border-radius: 300px;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 450px;
     display: flex;
     position: absolute;
-    left: 1300px;
-    bottom: 300px;
+    left: 1200px;
+    bottom: 200px;
 }
+
+
+
